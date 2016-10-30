@@ -1,0 +1,13 @@
+doctype html
+html(lang="en")
+	head
+		title='Pug Page'
+		link(rel="stylesheet", type="text/css", href='css/app.css')
+	body(data-controller="home")
+
+		div(id='app')
+			p Pug source code! "#{css}"
+			demo
+
+		script(src="js/vendor.js")
+		script(src="js/app.js")
